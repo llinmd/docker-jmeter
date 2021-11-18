@@ -1,0 +1,6 @@
+.idea/
+
+**/report/
+**/*.jtl
+**/*.log
+**/tmp/
