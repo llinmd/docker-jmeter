@@ -35,7 +35,6 @@ The script [run.sh](run.sh) is an example of how to run containerized JMeter.
    ```
    ./build.sh
    ```
-
    If you view this file, the <strong>docker build</strong> command within the script is for a specific version of JMeter and implements the <strong>Dockerfile</strong> in the same folder. 
    
    If you view the Dockerfile, notice the `JMETER_VERSION` specified can be different from the one in the build.sh script. The FROM keyword specifies the Alpine operating system, which is very small (less of an attack surface). Also, no JMeter plug-ins are used.
